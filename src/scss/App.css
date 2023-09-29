@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: "Bodoni-Roman", serif;
+  src: url("./../../components/fonts/BodoniFLF-Roman.ttf") format("ttf");
+}
+.heroSection {
+  color: white;
+  background-position: center;
+}
+.heroSection video {
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+}
+.heroSection .heroContent {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+.heroSection .heroContent .heroTitle {
+  background: brown;
+  color: white;
+  font-family: Bodoni-Roman, serif;
+  border: 1px dashed blue;
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: teal;
+  border: 1px dashed white;
+}
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 8vh;
+  font-size: 2rem;
+}
+header span {
+  font-size: 4rem;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding: 0;
+  color: rgb(74, 48, 33);
+  text-shadow: -3px 0px rgb(212, 175, 55);
+}
+/*# sourceMappingURL=App.css.map */
