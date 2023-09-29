@@ -1,8 +1,11 @@
-
-import './scss/App.scss'
+import "./scss/App.scss";
 
 //Components
-import HeroSection from './components/HeroSection';
+import HeroSection from "./components/sections/HeroSection";
+import PassionAndFocusSection from "./components/sections/PassionAndFocusSection";
+import ShowcaseSection from "./components/sections/ShowcaseSection";
+import SkillsSection from "./components/sections/SkillsSection";
+import Footer from "./components/sections/Footer";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -10,9 +13,12 @@ function App() {
   return (
     <>
       <HeroSection />
-
+      <PassionAndFocusSection />
+      <ShowcaseSection />
+      <SkillsSection />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
