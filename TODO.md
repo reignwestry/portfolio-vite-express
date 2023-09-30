@@ -11,12 +11,12 @@
             2.  [x] `HIRE A DEVELOPER` BTN --> CREATE A CLIENT/PROJECT INFO FORM
             3.  [x] `SEE MORE` BTN
         2. [ ] SECTION: PASSION AND FOCUS QUOTE           
-           1. [ ] Statement (3-5 lines)
-           2. [ ] `LEARN MORE` BTN
+           1. [X] Statement (3-5 lines)
+           2. [x] `LEARN MORE` BTN
 
-        3. [ ] SECTION: PASSION AND FOCUS QUOTE
-           1. [ ] Statement (3-5 lines)
-           2. [ ] `LEARN MORE` BTN   
+        3. [x] SECTION: PASSION AND FOCUS QUOTE
+           1. [x] Statement (3-5 lines)
+           2. [x] `LEARN MORE` BTN   
         4. SECTION: SHOWCASE
            1. [ ] ADD 6 best, latest, greatest projects
            2. [ ] PROJECT THUMB TEMPLATE WITH Links, desc, github
