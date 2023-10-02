@@ -3,7 +3,7 @@ import './../scss/pages/GalleryPage.scss';
 import HeroSection from "./../components/sections/HeroSection";
 import Footer from "./../components/sections/Footer";
 
-function PortolioPage() {
+function GalleryPage() {
     return <>
         <HeroSection />
         <h1>Portfolio Page</h1>
@@ -11,4 +11,4 @@ function PortolioPage() {
     </>
 }
 
-export default PortolioPage;
+export default GalleryPage;

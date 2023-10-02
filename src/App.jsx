@@ -18,7 +18,6 @@ function App() {
         <Route exact path="/gallery" element={<Gallery />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact index path="/" element={<Home />} />
-        {/* <Route path="/books" element={<BookList />} /> */}
       </Routes>
     </Router>
   );
