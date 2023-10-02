@@ -1,11 +1,14 @@
 import "./../scss/pages/ServicesPage.scss";
 
-import Header from "../components/Header";
+import HeroSection from "./../components/sections/HeroSection";
+import Footer from "./../components/sections/Footer";
 
 function ServicesPage() {
   return (
     <>
-      <Header /><h1>Services Page</h1>
+      <HeroSection />
+      <h1>Services Page</h1>
+      <Footer />
     </>
   );
 }

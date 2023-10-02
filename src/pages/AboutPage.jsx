@@ -1,13 +1,15 @@
 import "react";
 import "./../scss/pages/AboutPage.scss";
 
-// import Header from "./../components/Header";
+import HeroSection from "./../components/sections/HeroSection";
+import Footer from "./../components/sections/Footer";
 
 function AboutPage() {
   return (
     <>
-      {/* <Header /> */}
+      <HeroSection />
       <h1>About Page</h1>
+      <Footer />
     </>
   );
 }

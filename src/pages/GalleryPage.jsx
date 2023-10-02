@@ -1,11 +1,13 @@
-import './../scss/pages/PortfolioPage.scss';
+import './../scss/pages/GalleryPage.scss';
 
-import Header from '../components/Header';
+import HeroSection from "./../components/sections/HeroSection";
+import Footer from "./../components/sections/Footer";
 
 function PortolioPage() {
     return <>
-        <Header />
+        <HeroSection />
         <h1>Portfolio Page</h1>
+        <Footer />
     </>
 }
 
