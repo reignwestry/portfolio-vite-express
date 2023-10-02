@@ -1,6 +1,6 @@
 import './../scss/pages/PortfolioPage.scss';
 
-import Header from './../components/Header';
+import Header from '../components/Header';
 
 function PortolioPage() {
     return <>

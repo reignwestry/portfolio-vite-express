@@ -1,11 +1,5 @@
-import Header from "./../components/Header";
+@import './../components/sections/heroSection';
 
-function AboutPage() {
-  return (
-    <>
-      <Header />
-    </>
-  );
-}
 
-export default AboutPage;
+
+@import './../components/sections/footer';

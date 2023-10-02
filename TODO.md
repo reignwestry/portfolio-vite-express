@@ -18,10 +18,14 @@
            1. [x] Statement (3-5 lines)
            2. [x] `LEARN MORE` BTN   
         4. SECTION: SHOWCASE
-           1. [ ] ADD 6 best, latest, greatest projects
-           2. [ ] PROJECT THUMB TEMPLATE WITH Links, desc, github
-        5. [ ] SECTION: Contact
-           1. [ ]Create a contact form to the email or phone or both
+           1. [x] ADD 6 best, latest, greatest projects
+           2. [x] PROJECT THUMB TEMPLATE WITH Links, desc, github
+           3. [ ] FIX the REACT-ROUTER
+        5. SECTION: Skills
+           1. [ ] Design the framework
+           2. [ ] Build the framework
+        6. [x] SECTION: Contact
+           1. [x]Create a contact form to the email or phone or both
            2. 
 2.  [ ] FIX EXPRESS Routing
 3.  [ ] DESIGN GALLERY
