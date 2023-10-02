@@ -16,19 +16,19 @@ function ShowcaseSection() {
           className="projectThumb"
           style={{ backgroundImage: `url(${ThumbOne})` }}
         >
-            <ProjectDetails />
+          <ProjectDetails />
         </div>
         <div
           className="projectThumb"
           style={{ backgroundImage: `url(${ThumbTwo})` }}
         >
-          img
+          <ProjectDetails />
         </div>
         <div
           className="projectThumb"
           style={{ backgroundImage: `url(${ThumbThree})` }}
         >
-          img
+          <ProjectDetails />
         </div>
       </div>
       <div className="row">
@@ -36,19 +36,19 @@ function ShowcaseSection() {
           className="projectThumb"
           style={{ backgroundImage: `url(${ThumbFour})` }}
         >
-          img
+          <ProjectDetails />
         </div>
         <div
           className="projectThumb"
           style={{ backgroundImage: `url(${ThumbOne})` }}
         >
-          img
+          <ProjectDetails />
         </div>
         <div
           className="projectThumb"
           style={{ backgroundImage: `url(${ThumbThree})` }}
         >
-          img
+          <ProjectDetails />
         </div>
       </div>
     </section>

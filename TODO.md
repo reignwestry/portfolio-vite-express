@@ -23,11 +23,12 @@
         5. [ ] SECTION: Contact
            1. [ ]Create a contact form to the email or phone or both
            2. 
-2.  [ ] DESIGN GALLERY
-3.  [ ] DESIGN ABOUT PAGE
-4.  [ ] DESIGN CONTACT FORM
-5.  [ ] CHECK Mobile RESPONSIVENESS
-6.  [ ] ADD IN ACTIVE PAGE HIGHLIGHT
+2.  [ ] FIX EXPRESS Routing
+3.  [ ] DESIGN GALLERY
+4.  [ ] DESIGN ABOUT PAGE
+5.  [ ] DESIGN CONTACT FORM
+6.  [ ] CHECK Mobile RESPONSIVENESS
+7.  [ ] ADD IN ACTIVE PAGE HIGHLIGHT
 
 ## DEVELOPMENT
 
@@ -44,3 +45,6 @@
 5. [ ] BUILD GALLERY
 
 ## PRODUCE
+[ ] ADD the PORTFOLIO to UPWORK
+[ ] ADD the PORTFOLIO to FIVERR
+[ ] ADD the PORTFOLIO to FREELANCER

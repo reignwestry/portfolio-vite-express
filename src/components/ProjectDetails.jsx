@@ -16,17 +16,18 @@ function ProjectDetails() {
         <h3>Project Name</h3>
         <div className="projectDesc">
           <p>
-            This is a desc.This is a desc. This is a desc. This is a desc. this
-            is a desc. This is a desc.This is a desc. This is a desc. This is a
-            desc. this is a desc. This is a desc.This is a desc.
+            &nbsp;&nbsp;&nbsp;&nbsp;This is a desc.This is a desc. This is a
+            desc. This is a desc. this is a desc. This is a desc.This is a desc.
+            This is a desc. This is a desc. this is a desc. This is a desc.This
+            is a desc.
           </p>
-                  <div className="language-type">
-                      <img src={ViteIcon} alt />
-                      <img src={ReactIcon} alt />
-                      <img src={ExpressIcon} alt />
-                      <img src={SassIcon} alt />
+          <div className="language-type">
+            <img src={ViteIcon} alt />
+            <img src={ReactIcon} alt />
+            <img src={ExpressIcon} alt />
+            <img src={SassIcon} alt />
           </div>
-          <div className='btn-box'>
+          <div className="btn-box">
             <button className="BTN-project-seeMore">See More</button>
             <a>
               <img src={BtnGithub} alt />
