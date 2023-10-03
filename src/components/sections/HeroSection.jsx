@@ -1,7 +1,21 @@
+import { useNavigate } from 'react-router-dom';
+
 import Header from "../Header";
 import BGvideo from "./../../assets/videos/Hero/pexels-pavel-danilyuk-5495781 (720p).mp4";
 
 function HeroSection() {
+
+  const navigate = useNavigate();
+
+  const handleClickHireMe = () => {
+    navigate('/newproject');
+  }
+
+  const handleClickSeeMore = () => {
+    //navigate to gallery
+    navigate('/gallery');
+    
+  }
   return (
     <section className="heroSection">
       <video src={BGvideo} autoPlay loop muted />
@@ -13,14 +27,12 @@ function HeroSection() {
             <span>Web Developer</span>
           </div>
           <div className="heroButtonBox">
-            <button onClick className="BTN BTN-HireMe">
+            <button onClick={handleClickHireMe} className="BTN BTN-HireMe">
               Hire Me
-            </button>{" "}
-            {/* //? Go to Project Hire Form */}
-            <button onClick className="BTN BTN-SeeMore">
+            </button>
+            <button onClick={handleClickSeeMore} className="BTN BTN-SeeMore">
               See More
-            </button>{" "}
-            {/* //? GO to gallery Page */}
+            </button>
           </div>
         </div>
       </div>
