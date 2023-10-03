@@ -6,7 +6,7 @@ import Footer from "./../components/sections/Footer";
 function GalleryPage() {
     return <>
         <HeroSection />
-        <h1>Portfolio Page</h1>
+        <h1>Gallery Page</h1>
         <Footer />
     </>
 }
