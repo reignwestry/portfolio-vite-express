@@ -1,0 +1,26 @@
+.gallerySection{
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: auto;
+
+    .row{
+        background: darkblue;
+        height: 30vh;
+        width: 100vw;
+        border: 1px dashed red;
+        display: flex;
+        flex-direction: row;
+
+        .projectBox{
+            background: orange;
+            border: 1px dashed white;
+            height: 100%;
+            width: 25vw;
+            
+        }
+
+
+    }
+}

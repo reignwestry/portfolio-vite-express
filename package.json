@@ -5,12 +5,12 @@
   "type": "module",
   "main": "server/setup.js",
   "scripts": {
-    "dev": "concurrently 'npm:test' 'npm:frontend' 'npm:backend' ",
+    "dev": "concurrently 'npm:test' 'npm:frontend' ",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "frontend": "vite",
-    "backend": "node server/server.js",
+    "frontend": "concurrently 'vite' 'npm:test' ",
+    "backend": "concurrently 'node server/server.js' 'npm:test' ",
     "test": "vitest"
   },
   "dependencies": {
